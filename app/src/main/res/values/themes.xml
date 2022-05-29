@@ -23,9 +23,6 @@
 
     <style name="Theme.Ayudadita.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="Theme.SplashTheme"
-        parent="Theme.MaterialComponents.NoActionBar">
-        <item name="android:windowActionBar">@drawable/splash_screen_logo</item>
 
-    </style>
+
 </resources>
