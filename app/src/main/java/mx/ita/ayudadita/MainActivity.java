@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_SplashTheme);
         super.onCreate(savedInstanceState);
-
+        setTheme(R.style.Theme_Ayudadita);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
