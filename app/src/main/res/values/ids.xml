@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_nombre" type="id">edit_nombre</item>
+    <item name="edit_correo" type="id">edit_correo</item>
+    <item name="edit_contraseña" type="id">edit_contraseña</item>
+    <item name="btn_submit" type="id">btn_submit</item>
+</resources>

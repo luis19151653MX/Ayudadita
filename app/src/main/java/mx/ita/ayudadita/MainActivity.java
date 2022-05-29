@@ -3,6 +3,9 @@ package mx.ita.ayudadita;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +55,26 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        final EditText edit_nombre = findViewById(R.id.edit_nombre);
+        final EditText edit_correo = findViewById(R.id.edit_correo);
+        final EditText edit_contraseña = findViewById(R.id.edit_contraseña);
+
+        Button btn = findViewById(R.id.btn_submit);
+        DAOUsers dao = new DAOUsers();
+
+        btn.setOnClickListener(v->
+        {
+            /*INSERTAR*/
+            Users user = new Users(edit_nombre.getText().toString(), edit_correo.getText().toString(), edit_contraseña.getText().toString());
+            dao.add(user).addOnSuccessListener(suc->
+            {
+                Toast.makeText(this, "Usuario registrado", Toast.LENGTH_SHORT).show();
+            }).addOnFailureListener(er->
+            {
+                Toast.makeText(this, ""+er.getMessage(), Toast.LENGTH_SHORT).show();
+            });
+        });
     }
 
     @Override
