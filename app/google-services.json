@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169230135940",
+    "project_id": "projectdmayudaita",
+    "storage_bucket": "projectdmayudaita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169230135940:android:2d008c2486239f702308d1",
+        "android_client_info": {
+          "package_name": "mx.ita.ayudadita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169230135940-evbfkgn078l2losiao1vsqrceqduv6lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9gMxPUxm_XsTZA-9tTmCU5nlZ_He2uFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169230135940-evbfkgn078l2losiao1vsqrceqduv6lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
