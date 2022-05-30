@@ -3,6 +3,6 @@
     <string name="ForgetMyPassword">Olvide mi contraseña</string>
     <string name="LogIn">Iniciar Sesión</string>
     <string name="PasswordHint">contraseña</string>
-    <string name="EmailHint">correo electronico</string>
+    <string name="EmailHint">correo electrónico</string>
     <string name="Registration">Registrarme</string>
 </resources>
