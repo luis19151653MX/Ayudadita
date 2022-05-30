@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--log in-->
-    <string name="ForgetMyPassword">Olvide mi contraseña</string>
+    <string name="ForgetMyPassword"><u>Olvide mi contraseña</u></string>
     <string name="LogIn">Iniciar Sesión</string>
     <string name="PasswordHint">contraseña</string>
     <string name="EmailHint">correo electrónico</string>

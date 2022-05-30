@@ -11,7 +11,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <!--log in-->
-    <string name="ForgetMyPassword">Olvide mi contraseña</string>
+    <string name="ForgetMyPassword"><u>Olvide mi contraseña</u></string>
     <string name="LogIn">Iniciar Sesión</string>
     <string name="PasswordHint">contraseña</string>
     <string name="EmailHint">correo electronico</string>

@@ -21,11 +21,8 @@
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/roboto_light"
+        style="@style/textoTitulo"
         android:text="@string/LogIn"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,49 +58,42 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
 
-
-    <Button
+    <TextView
         android:id="@+id/olvide_contraseña"
-        android:layout_width="250dp"
-        android:layout_height="46dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        style="@style/textoEnlace"
         android:text="@string/ForgetMyPassword"
-        android:textColor="#03045E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
         android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginTop="52dp"
-        android:backgroundTint="#5C5C5C"
-        android:enabled="false"
-        android:gravity="center"
+        style="@style/BotonAyudadita"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
         android:text="@string/LogIn"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/olvide_contraseña" />
+
     <Button
         android:id="@+id/crear_cuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
+        style="@style/BotonAyudadita"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
         android:text="@string/Registration"
-        android:textColor="#03045E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.196" />
-
-
+        app:layout_constraintVertical_bias="0.123" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
