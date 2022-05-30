@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ForgetMyPassword">Olvide mi contraseña</string>
+    <string name="LogIn">Iniciar Sesión</string>
+    <string name="PasswordHint">contraseña</string>
+    <string name="EmailHint">correo electronico</string>
+    <string name="Registration">Registrarme</string>
+</resources>
