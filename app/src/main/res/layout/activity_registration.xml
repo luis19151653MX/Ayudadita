@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/nombre"
+        android:id="@+id/edit_nombre"
         android:layout_width="316dp"
         android:layout_height="52dp"
         android:layout_marginTop="30dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/correo"
+        android:id="@+id/edit_correo"
         android:layout_width="316dp"
         android:layout_height="52dp"
         android:layout_marginTop="30dp"
@@ -55,10 +55,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombre" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_nombre" />
 
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/edit_contraseña"
         android:layout_width="316dp"
         android:layout_height="52dp"
         android:layout_marginTop="30dp"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/edit_correo"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
