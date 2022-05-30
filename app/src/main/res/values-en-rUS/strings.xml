@@ -15,7 +15,7 @@
     <string name="RegistrationText">Sign up</string>
     <string name="IAcceptTermsConditions">I accept terms and conditions</string>
     <string name="RegistrationButton">Sign up</string>
-
+    <string name="logout">Logout</string>
 
 
 </resources>
