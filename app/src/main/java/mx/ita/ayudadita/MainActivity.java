@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity  implements GestureOverlayVi
 
         if(predictions.size()>0){
             String comando = predictions.get(0).name;
-            if(comando.equals("ayuda")){
-                Intent settings = new Intent(this, fragment_about_us.class);
+            if(comando.equals("acerca_de")){
+                Intent settings = new Intent(this, Login.class);
                 settings.putExtra("key", "Settings from gesture");
                 this.startActivity(settings);
             }
