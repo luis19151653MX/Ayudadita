@@ -11,4 +11,10 @@
 
     <color name="buttonHome">#CFDBDE</color>
     <color name="text">#000000</color>
+
+    <!-- Colores -->
+    <color name="colorButtonGray">#47525E</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorMenuIcon">#0077B6</color>
+
 </resources>

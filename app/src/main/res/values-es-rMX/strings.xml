@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Opciones del menu-->
+    <string name="menu_conocenos">Conocenos</string>
+
     <!--log in-->
     <string name="ForgetMyPassword"><u>Olvide mi contraseña</u></string>
     <string name="LogIn">Iniciar Sesión</string>
@@ -13,5 +16,6 @@
     <string name="RegistrationText">Regístrate</string>
     <string name="IAcceptTermsConditions">Acepto Términos y Condiciones</string>
     <string name="RegistrationButton">Registrar</string>
+
 
 </resources>

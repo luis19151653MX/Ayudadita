@@ -22,4 +22,9 @@
         android:name="mx.ita.ayudadita.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_about_us"
+        android:name="mx.ita.ayudadita.fragment_about_us"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
 </navigation>

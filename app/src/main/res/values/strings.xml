@@ -7,9 +7,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Opciones de menu-->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_conocenos">Conocenos</string>
     <!--log in-->
     <string name="ForgetMyPassword"><u>Olvide mi contraseña</u></string>
     <string name="LogIn">Iniciar Sesión</string>
@@ -23,5 +25,8 @@
     <string name="RegistrationText">Regístrate</string>
     <string name="IAcceptTermsConditions">Acepto Términos y Condiciones</string>
     <string name="RegistrationButton">Registrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
 
 </resources>

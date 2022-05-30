@@ -43,14 +43,16 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+        // menu should be considered as top level destinations
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.fragment_about_us)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        //para que tome los colores de los iconos
+        navigationView.setItemIconTintList(null);
     }
 
     @Override
