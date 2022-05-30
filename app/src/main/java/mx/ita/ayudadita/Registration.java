@@ -21,11 +21,11 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
-//jolj
+//joljok
 public class Registration extends AppCompatActivity {
 
     private Button Registrar;
-
+    
     FirebaseAuth mAuth;
     DatabaseReference mDatabase;
 
