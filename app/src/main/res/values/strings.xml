@@ -10,9 +10,18 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <!--log in-->
     <string name="ForgetMyPassword">Olvide mi contraseña</string>
     <string name="LogIn">Iniciar Sesión</string>
     <string name="PasswordHint">contraseña</string>
     <string name="EmailHint">correo electronico</string>
+    <!--Registrar-->
     <string name="Registration">Registarme</string>
+    <string name="EnterPassword">Ingresa tu contraseña</string>
+    <string name="EnterEmailHint">Ingresa tu correo institucional</string>
+    <string name="EnterName">Ingresa tu nombre</string>
+    <string name="RegistrationText">Regístrate</string>
+    <string name="IAcceptTermsConditions">Acepto Términos y Condiciones</string>
+    <string name="RegistrationButton">Registrar</string>
+
 </resources>

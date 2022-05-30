@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--log in-->
     <string name="ForgetMyPassword">Olvide mi contraseña</string>
     <string name="LogIn">Iniciar Sesión</string>
     <string name="PasswordHint">contraseña</string>
     <string name="EmailHint">correo electrónico</string>
     <string name="Registration">Registrarme</string>
+    <!--Registrar-->
+    <string name="EnterPassword">Ingresa tu contraseña</string>
+    <string name="EnterEmailHint">Ingresa tu correo institucional</string>
+    <string name="EnterName">Ingresa tu nombre</string>
+    <string name="RegistrationText">Regístrate</string>
+    <string name="IAcceptTermsConditions">Acepto Términos y Condiciones</string>
+    <string name="RegistrationButton">Registrar</string>
+
 </resources>
