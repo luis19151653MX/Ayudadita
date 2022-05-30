@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//jolj
 public class Registration extends AppCompatActivity {
 
     private Button Registrar;
