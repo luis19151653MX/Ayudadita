@@ -27,9 +27,4 @@
         android:name="mx.ita.ayudadita.fragment_about_us"
         android:label="fragment_about_us"
         tools:layout="@layout/fragment_about_us" />
-    <fragment
-        android:id="@+id/fragment_semestre1"
-        android:name="mx.ita.ayudadita.fragment_semestre1"
-        android:label="fragment_semestre1"
-        tools:layout="@layout/fragment_semestre1" />
 </navigation>

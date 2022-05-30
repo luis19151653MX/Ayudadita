@@ -56,7 +56,7 @@ public class Registration extends AppCompatActivity {
                     if (contraseña.length()>=6){
                         registerUser();
                     }else{
-                        Toast.makeText(Registration.this, "Debe de ternar +6",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Registration.this, "La contraseña debe de tener 6 carácteres",Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     Toast.makeText(Registration.this, "Completa los campos", Toast.LENGTH_SHORT).show();
