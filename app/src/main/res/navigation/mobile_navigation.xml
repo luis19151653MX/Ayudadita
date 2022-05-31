@@ -16,27 +16,6 @@
         <action
             android:id="@+id/action_nav_home_to_fragment_second_semester"
             app:destination="@id/fragment_second_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_third_semester"
-            app:destination="@id/fragment_third_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_fouth_semester"
-            app:destination="@id/fragment_fouth_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_five_semester"
-            app:destination="@id/fragment_five_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_six_semester"
-            app:destination="@id/fragment_six_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_eight_semester"
-            app:destination="@id/fragment_eight_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_seven_semester"
-            app:destination="@id/fragment_seven_semester" />
-        <action
-            android:id="@+id/action_nav_home_to_fragment_nine_semester"
-            app:destination="@id/fragment_nine_semester" />
     </fragment>
 
     <fragment
@@ -70,43 +49,17 @@
         android:label="fragment_second_semester"
         tools:layout="@layout/fragment_second_semester" />
     <fragment
-        android:id="@+id/fragment_third_semester"
-        android:name="mx.ita.ayudadita.fragment_third_semester"
-        android:label="fragment_third_semester"
-        tools:layout="@layout/fragment_third_semester" />
-    <fragment
-        android:id="@+id/fragment_fouth_semester"
-        android:name="mx.ita.ayudadita.fragment_fouth_semester"
-        android:label="fragment_fouth_semester"
-        tools:layout="@layout/fragment_fouth_semester" />
-    <fragment
-        android:id="@+id/fragment_five_semester"
-        android:name="mx.ita.ayudadita.fragment_five_semester"
-        android:label="fragment_five_semester"
-        tools:layout="@layout/fragment_five_semester" />
-    <fragment
-        android:id="@+id/fragment_six_semester"
-        android:name="mx.ita.ayudadita.fragment_six_semester"
-        android:label="fragment_six_semester"
-        tools:layout="@layout/fragment_six_semester" />
-    <fragment
-        android:id="@+id/fragment_seven_semester"
-        android:name="mx.ita.ayudadita.fragment_seven_semester"
-        android:label="fragment_seven_semester"
-        tools:layout="@layout/fragment_seven_semester" />
-    <fragment
-        android:id="@+id/fragment_eight_semester"
-        android:name="mx.ita.ayudadita.fragment_eight_semester"
-        android:label="fragment_eight_semester"
-        tools:layout="@layout/fragment_eight_semester" />
-    <fragment
-        android:id="@+id/fragment_nine_semester"
-        android:name="mx.ita.ayudadita.fragment_nine_semester"
-        android:label="fragment_nine_semester"
-        tools:layout="@layout/fragment_nine_semester" />
-    <fragment
         android:id="@+id/fragment_allquestions"
         android:name="mx.ita.ayudadita.fragment_allquestions"
         android:label="fragment_allquestions"
-        tools:layout="@layout/fragment_allquestions" />
+        tools:layout="@layout/fragment_allquestions" >
+        <action
+            android:id="@+id/action_fragment_allquestions_to_fragment_write_question"
+            app:destination="@id/fragment_write_question" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_write_question"
+        android:name="mx.ita.ayudadita.fragment_write_question"
+        android:label="fragment_write_question"
+        tools:layout="@layout/fragment_write_question" />
 </navigation>
