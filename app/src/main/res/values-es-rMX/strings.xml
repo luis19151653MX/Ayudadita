@@ -18,5 +18,12 @@
     <string name="RegistrationButton">Registrar</string>
     <string name="logout">Cerrar sesión</string>
 
+    <!--Olvide mi contraseña-->
+    <string name="forgetpassword">Olvide mi contraseña</string>
+    <string name="forgetEmail">Correo Institucional</string>
+    <string name="forget_password">Contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="change_password">Cambiar contraseña</string>
+
 
 </resources>

@@ -17,5 +17,12 @@
     <string name="RegistrationButton">Sign up</string>
     <string name="logout">Logout</string>
 
+    <!--Olvide mi contraseña-->
+    <string name="forgetpassword">Forget password</string>
+    <string name="forgetEmail">Enter email</string>
+    <string name="forget_password">Enter password</string>
+    <string name="new_password">Enter new password</string>
+    <string name="change_password">Change password</string>
+
 
 </resources>
