@@ -25,6 +25,7 @@
     <!--Preguntas-->
     <string name="what_is_your_question">What is your question?</string>
     <string name="Write_question">Write your question here</string>
+    <string name="semester_title_first">first Semester</string>
 
 
 </resources>

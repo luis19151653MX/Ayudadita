@@ -59,7 +59,11 @@
         android:id="@+id/fragment_first_semester"
         android:name="mx.ita.ayudadita.fragment_first_semester"
         android:label="fragment_first_semester"
-        tools:layout="@layout/fragment_first_semester" />
+        tools:layout="@layout/fragment_first_semester" >
+        <action
+            android:id="@+id/action_fragment_first_semester_to_fragment_allquestions"
+            app:destination="@id/fragment_allquestions" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_second_semester"
         android:name="mx.ita.ayudadita.fragment_second_semester"
@@ -100,4 +104,9 @@
         android:name="mx.ita.ayudadita.fragment_nine_semester"
         android:label="fragment_nine_semester"
         tools:layout="@layout/fragment_nine_semester" />
+    <fragment
+        android:id="@+id/fragment_allquestions"
+        android:name="mx.ita.ayudadita.fragment_allquestions"
+        android:label="fragment_allquestions"
+        tools:layout="@layout/fragment_allquestions" />
 </navigation>

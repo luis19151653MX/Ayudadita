@@ -27,19 +27,16 @@
     <string name="RegistrationButton">Registrar</string>
     <string name="logout">Cerrar sesión</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <!--Olvide mi contraseña-->
     <string name="forgetpassword">Olvide mi contraseña</string>
-    <string name="forgetEmail">Correo Institucional</string>
-    <string name="forget_password">Contraseña</string>
-    <string name="new_password">Nueva contraseña</string>
-    <string name="change_password">Cambiar contraseña</string>
     <string name="EnterEmail">Ingresa tu correo</string>
     <string name="RestorePassword">Reestablecer contraseña</string>
     <!--Preguntas-->
     <string name="what_is_your_question">¿Cuál es tu pregunta?</string>
     <string name="Write_question">Escribe aquí tu pregunta</string>
+
+    <!-- Pantallas de semestre-->
+    <string name="semester_title_first">Primer Semestre</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 

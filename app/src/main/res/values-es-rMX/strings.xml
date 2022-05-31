@@ -25,6 +25,7 @@
     <!--Preguntas-->
     <string name="what_is_your_question">¿Cuál es tu pregunta?</string>
     <string name="Write_question">Escribe aquí tu pregunta</string>
+    <string name="semester_title_first">Primer Semestre</string>
 
 
 </resources>

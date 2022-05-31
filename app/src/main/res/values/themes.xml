@@ -64,6 +64,13 @@
         <item name="android:textAlignment">textStart</item>
     </style>
 
+    <style name="ButtonSemester">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:background">#FFF</item>
+    </style>
+
 
 
 
