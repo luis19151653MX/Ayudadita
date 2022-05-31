@@ -20,11 +20,6 @@ import java.util.ArrayList;
 
 import mx.ita.ayudadita.databinding.ActivityMainBinding;
 
-//hol me llamos
-//cassandrita
-//hola soy la modificacion de fer
-//hola soy commit fer
-//fer
 public class MainActivity extends AppCompatActivity   {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -51,7 +46,7 @@ public class MainActivity extends AppCompatActivity   {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.fragment_about_us)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.fragment_about_us,R.id.fragment_logout)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
