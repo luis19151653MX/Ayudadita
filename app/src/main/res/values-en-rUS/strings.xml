@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Ayudadita</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
     <!-- Menu options-->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Settings</string>
+    <string name="menu_slideshow">Slideshow</string>
     <string name="menu_conocenos">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola blanco</string>
+
     <!--log in-->
     <string name="ForgetMyPassword"><u>I forget my password</u></string>
     <string name="LogIn">Log In</string>
@@ -25,7 +39,18 @@
     <!--Preguntas-->
     <string name="what_is_your_question">What is your question?</string>
     <string name="Write_question">Write your question here</string>
+
+    <!-- Pantallas de semestre-->
     <string name="semester_title_first">first Semester</string>
+
+    <!--About us-->
+    <string name="AboutUsText">About Us</string>
+    <string name="AboutUsContent">Allow students and teachers of the institute to be able to interact in a forum where academic questions and answers will be published in such a way that a communication channel is created to provide a response that contributes to the resolution of the doubts expressed by the student of the community.
+\n\nThis will serve to improve the educational quality perceived by students and contribute to their academic development, since occasionally students for different reasons have academic doubts and this generates a snowball effect that does not allow them to understand more advanced topics of a or more subjects.</string>
+    <string name="AboutUsContact"><u>Contact</u></string>
+
+    <!--Home-->
+    <string name="title_semester">Semesters</string>
 
 
 </resources>

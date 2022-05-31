@@ -9,9 +9,13 @@
 
     <!-- Opciones de menu-->
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_gallery">Settings</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_conocenos">Conocenos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola blanco</string>
+
     <!--log in-->
     <string name="ForgetMyPassword"><u>Olvide mi contraseña</u></string>
     <string name="LogIn">Iniciar Sesión</string>
@@ -39,7 +43,14 @@
     <string name="semester_title_first">Primer Semestre</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--Acerca de nosotros-->
+    <string name="AboutUsText">Acerca de nosotros</string>
+    <string name="AboutUsContent">Permitir a estudiantes y docentes del instituto poder interactuar en un foro donde se publicarán dudas académicas y respuestas de tal manera que se cree un canal de comunicación para brindar una respuesta que contribuya a la resolución de las dudas expresadas por el alumno de la comunidad.
+\n\nEsto servirá para mejorar la calidad educativa percibida por los estudiantes y contribuir a su desarrollo académico, ya que ocasionalmente los estudiantes por diferentes motivos mantienen dudas académicas y esto genera un efecto bola de nieve que no les permite comprender temas más avanzados de una o más asignaturas.</string>
+    <string name="AboutUsContact"><u>Contacto</u></string>
+
+    <!--Home-->
+    <string name="title_semester">Semestres</string>
 
 
 </resources>
