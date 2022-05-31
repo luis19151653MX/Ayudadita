@@ -35,6 +35,8 @@
     <string name="forget_password">Contraseña</string>
     <string name="new_password">Nueva contraseña</string>
     <string name="change_password">Cambiar contraseña</string>
+    <string name="EnterEmail">Ingresa tu correo</string>
+    <string name="RestorePassword">Reestablecer contraseña</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 

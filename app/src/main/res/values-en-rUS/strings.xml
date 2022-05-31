@@ -19,10 +19,8 @@
 
     <!--Olvide mi contraseña-->
     <string name="forgetpassword">Forget password</string>
-    <string name="forgetEmail">Enter email</string>
-    <string name="forget_password">Enter password</string>
-    <string name="new_password">Enter new password</string>
-    <string name="change_password">Change password</string>
+    <string name="EnterEmail">Enter emial</string>
+    <string name="RestorePassword">Restore password</string>
 
 
 </resources>

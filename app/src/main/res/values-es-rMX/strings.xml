@@ -20,10 +20,8 @@
 
     <!--Olvide mi contraseña-->
     <string name="forgetpassword">Olvide mi contraseña</string>
-    <string name="forgetEmail">Correo Institucional</string>
-    <string name="forget_password">Contraseña</string>
-    <string name="new_password">Nueva contraseña</string>
-    <string name="change_password">Cambiar contraseña</string>
+    <string name="EnterEmail">Ingresa tu correo</string>
+    <string name="RestorePassword">Restablecer contraseña</string>
 
 
 </resources>

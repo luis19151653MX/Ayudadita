@@ -52,7 +52,7 @@ public class fragment_logout extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent = new Intent(getActivity(), Login.class);
+        Intent intent = new Intent(getActivity(), SplashScreen.class);
         getActivity().startActivity(intent);
 
         if (getArguments() != null) {

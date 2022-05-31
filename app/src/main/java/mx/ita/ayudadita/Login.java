@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -26,6 +27,7 @@ public class Login extends AppCompatActivity {
     private EditText edContraseña;
     private Button Login;
     private Button Registrar;
+    private TextView Olvide_contraseña;
 
     private String correo;
     private String contraseña;
@@ -42,7 +44,8 @@ public class Login extends AppCompatActivity {
         edCorreo = (EditText) findViewById(R.id.email);
         edContraseña = (EditText) findViewById(R.id.password);
         Registrar = (Button) findViewById(R.id.crear_cuenta);
-        Login= (Button) findViewById(R.id.login);
+        Login = (Button) findViewById(R.id.login);
+        Olvide_contraseña = (TextView) findViewById(R.id.olvide_contraseña);
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +65,13 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Login.this, Registration.class));
+            }
+        });
+
+        Olvide_contraseña.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Login.this, ForgetPassword.class));
             }
         });
 
