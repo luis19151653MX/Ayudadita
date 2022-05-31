@@ -61,5 +61,9 @@
         android:id="@+id/fragment_write_question"
         android:name="mx.ita.ayudadita.fragment_write_question"
         android:label="fragment_write_question"
-        tools:layout="@layout/fragment_write_question" />
+        tools:layout="@layout/fragment_write_question" >
+        <action
+            android:id="@+id/action_fragment_write_question_to_fragment_allquestions"
+            app:destination="@id/fragment_allquestions" />
+    </fragment>
 </navigation>

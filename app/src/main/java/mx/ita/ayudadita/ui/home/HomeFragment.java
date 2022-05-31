@@ -51,7 +51,7 @@ public class HomeFragment extends Fragment  {
         semestre3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_third_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment  {
         semestre4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_fouth_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -69,7 +69,7 @@ public class HomeFragment extends Fragment  {
         semestre5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_five_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -78,7 +78,7 @@ public class HomeFragment extends Fragment  {
         semestre6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_six_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -87,7 +87,7 @@ public class HomeFragment extends Fragment  {
         semestre7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_seven_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -96,7 +96,7 @@ public class HomeFragment extends Fragment  {
         semestre8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_eight_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
@@ -105,7 +105,7 @@ public class HomeFragment extends Fragment  {
         semestre9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_nine_semester);
+                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_fragment_first_semester);
             }
         });
 
