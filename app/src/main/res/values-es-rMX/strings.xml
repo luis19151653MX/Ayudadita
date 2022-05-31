@@ -22,6 +22,9 @@
     <string name="forgetpassword">Olvide mi contraseña</string>
     <string name="EnterEmail">Ingresa tu correo</string>
     <string name="RestorePassword">Restablecer contraseña</string>
+    <!--Preguntas-->
+    <string name="what_is_your_question">¿Cuál es tu pregunta?</string>
+    <string name="Write_question">Escribe aquí tu pregunta</string>
 
 
 </resources>

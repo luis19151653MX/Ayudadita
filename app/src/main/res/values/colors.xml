@@ -16,5 +16,6 @@
     <color name="colorButtonGray">#47525E</color>
     <color name="colorButtonText">#FFFFFF</color>
     <color name="colorMenuIcon">#0077B6</color>
+    <color name="colorPreguntas">#D3EDF2</color>
 
 </resources>

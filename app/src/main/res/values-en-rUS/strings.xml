@@ -22,5 +22,9 @@
     <string name="EnterEmail">Enter emial</string>
     <string name="RestorePassword">Restore password</string>
 
+    <!--Preguntas-->
+    <string name="what_is_your_question">What is your question?</string>
+    <string name="Write_question">Write your question here</string>
+
 
 </resources>

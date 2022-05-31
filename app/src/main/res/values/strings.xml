@@ -37,6 +37,9 @@
     <string name="change_password">Cambiar contraseña</string>
     <string name="EnterEmail">Ingresa tu correo</string>
     <string name="RestorePassword">Reestablecer contraseña</string>
+    <!--Preguntas-->
+    <string name="what_is_your_question">¿Cuál es tu pregunta?</string>
+    <string name="Write_question">Escribe aquí tu pregunta</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 
