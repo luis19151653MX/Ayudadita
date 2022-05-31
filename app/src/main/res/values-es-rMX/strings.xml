@@ -11,7 +11,7 @@
     <!--Opciones del menu-->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Configuración</string>
-    <string name="menu_slideshow">Deslizar</string>
+    <string name="menu_slideshow">Editar perfil</string>
     <string name="menu_conocenos">Conocenos</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -51,5 +51,12 @@
 
     <!--Home-->
     <string name="title_semester">Semestres</string>
+
+    <!--Contactos-->
+    <string name="contact_contacto">Contacto de los desarrolladores</string>
+    <string name="contact_correo">Correo electrónico</string>
+    <string name="contact_gmail">AyudadITA@gmail.com</string>
+    <string name="contact_numero">Número de telefóno</string>
+    <string name="contact_numerotelefonico">+52 449 544 73 37</string>
 
 </resources>

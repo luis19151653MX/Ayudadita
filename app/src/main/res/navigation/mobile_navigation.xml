@@ -33,7 +33,11 @@
         android:id="@+id/fragment_about_us"
         android:name="mx.ita.ayudadita.fragment_about_us"
         android:label="fragment_about_us"
-        tools:layout="@layout/fragment_about_us" />
+        tools:layout="@layout/fragment_about_us" >
+        <action
+            android:id="@+id/action_fragment_about_us_to_fragment_contact"
+            app:destination="@id/fragment_contact" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_first_semester"
         android:name="mx.ita.ayudadita.fragment_first_semester"
@@ -71,4 +75,9 @@
         android:name="mx.ita.ayudadita.fragment_logout"
         android:label="fragment_logout"
         tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/fragment_contact"
+        android:name="mx.ita.ayudadita.fragment_contact"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>
