@@ -66,4 +66,9 @@
             android:id="@+id/action_fragment_write_question_to_fragment_allquestions"
             app:destination="@id/fragment_allquestions" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment_logout"
+        android:name="mx.ita.ayudadita.fragment_logout"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
 </navigation>
