@@ -9,7 +9,6 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
@@ -64,7 +63,7 @@ public class fragment_allquestions extends Fragment {
                              Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.fragment_allquestions, container, false);
 
-        Button btn = view.findViewById(R.id.button);
+        ImageButton btn = view.findViewById(R.id.agregarPregunta);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
