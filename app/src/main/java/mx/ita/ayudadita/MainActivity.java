@@ -2,10 +2,6 @@ package mx.ita.ayudadita;
 
 import android.content.Intent;
 import android.content.pm.LabeledIntent;
-import android.gesture.Gesture;
-import android.gesture.GestureLibraries;
-import android.gesture.GestureLibrary;
-import android.gesture.GestureOverlayView;
 import android.gesture.Prediction;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +9,6 @@ import android.view.Menu;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
-import android.gesture.Gesture;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -30,11 +25,10 @@ import mx.ita.ayudadita.databinding.ActivityMainBinding;
 //hola soy la modificacion de fer
 //hola soy commit fer
 //fer
-public class MainActivity extends AppCompatActivity  implements GestureOverlayView.OnGesturePerformedListener {
+public class MainActivity extends AppCompatActivity   {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
-    private GestureLibrary libreria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,13 +45,6 @@ public class MainActivity extends AppCompatActivity  implements GestureOverlayVi
                         .setAction("Action", null).show();
             }
         });
-
-        libreria= GestureLibraries.fromRawResource(this, R.raw.gestures);
-        if(!libreria.load()){
-            finish();
-        }
-        GestureOverlayView gestureView = findViewById(R.id.gestures);
-        gestureView.addOnGesturePerformedListener(this);
 
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
@@ -86,19 +73,5 @@ public class MainActivity extends AppCompatActivity  implements GestureOverlayVi
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
-    }
-
-    @Override
-    public void onGesturePerformed(GestureOverlayView gestureOverlayView, Gesture gesture) {
-        ArrayList<Prediction> predictions=libreria.recognize(gesture);
-
-        if(predictions.size()>0){
-            String comando = predictions.get(0).name;
-            if(comando.equals("acerca_de")){
-                Intent settings = new Intent(this, Login.class);
-                settings.putExtra("key", "Settings from gesture");
-                this.startActivity(settings);
-            }
-        }
     }
 }
