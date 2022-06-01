@@ -3,18 +3,27 @@ package mx.ita.ayudadita;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-
+import android.content.Intent;
+import android.gesture.Gesture;
+import android.gesture.GestureLibraries;
+import android.gesture.GestureLibrary;
+import android.gesture.GestureOverlayView;
+import android.gesture.Prediction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link fragment_contact#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class fragment_contact extends Fragment {
+public class fragment_contact extends Fragment implements GestureOverlayView.OnGesturePerformedListener{
+
+    private GestureLibrary libreria;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,7 +69,27 @@ public class fragment_contact extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_contact, container, false);
+        libreria= GestureLibraries.fromRawResource(getActivity(), R.raw.gestures);
+        if(!libreria.load()){
+            // finish();
+        }
+        View view = inflater.inflate(R.layout.fragment_contact, container, false);
+        GestureOverlayView gestureView = view.findViewById(R.id.gestures);
+        gestureView.addOnGesturePerformedListener(this);
         return view;
     }
+
+    @Override
+    public void onGesturePerformed(GestureOverlayView gestureOverlayView, Gesture gesture) {
+        ArrayList<Prediction> predictions=libreria.recognize(gesture);
+        if(predictions.size()>0){
+            String comando = predictions.get(0).name;
+            if(comando.equals("acerca_de")){
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                getActivity().startActivity(intent);
+
+            }
+        }
+    }
 }
+
