@@ -50,10 +50,11 @@ public class fragment_logout extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        Toast.makeText(getActivity(), "Log out", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getActivity(), SplashScreen.class);
         getActivity().startActivity(intent);
-        Toast.makeText(getActivity(), "Log out", Toast.LENGTH_SHORT).show();
+        super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
