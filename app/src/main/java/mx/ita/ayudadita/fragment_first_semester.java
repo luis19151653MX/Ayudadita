@@ -70,6 +70,46 @@ public class fragment_first_semester extends Fragment {
                 Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
             }
         });
+
+        ImageButton materia2=view.findViewById(R.id.imageButton2);
+        materia2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
+            }
+        });
+
+        ImageButton materia3=view.findViewById(R.id.imageButton3);
+        materia3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
+            }
+        });
+
+        ImageButton materia4=view.findViewById(R.id.imageButton4);
+        materia4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
+            }
+        });
+
+        ImageButton materia5=view.findViewById(R.id.imageButton5);
+        materia5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
+            }
+        });
+
+        ImageButton materia6=view.findViewById(R.id.imageButton6);
+        materia6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_fragment_first_semester_to_fragment_allquestions);
+            }
+        });
         return view;
     }
 }
