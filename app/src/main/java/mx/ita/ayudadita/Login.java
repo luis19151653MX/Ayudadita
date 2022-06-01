@@ -3,7 +3,11 @@ package mx.ita.ayudadita;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +23,8 @@ import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import java.util.Locale;
 
 import mx.ita.ayudadita.ui.home.HomeFragment;
 
@@ -88,5 +94,22 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void setLocal(String lang) {
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration configuration = new Configuration();
+        configuration.locale = locale;
+        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+        SharedPreferences.Editor editor = getSharedPreferences("settings", MODE_PRIVATE).edit();
+        editor.putString("My_Language", lang);
+        editor.commit();
+    }
+
+    public void getLocal() {
+        SharedPreferences sharedPreferences = getSharedPreferences("settings", Activity.MODE_PRIVATE);
+        String language = sharedPreferences.getString("My_Language", "");
+        setLocal(language);
     }
 }

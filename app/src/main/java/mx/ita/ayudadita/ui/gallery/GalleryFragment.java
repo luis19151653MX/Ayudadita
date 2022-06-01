@@ -1,5 +1,7 @@
 package mx.ita.ayudadita.ui.gallery;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,6 +25,7 @@ public class GalleryFragment extends Fragment {
 
     private FragmentGalleryBinding binding;
     private Button buttonEs;
+    private Button buttonEn;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -36,30 +39,38 @@ public class GalleryFragment extends Fragment {
         buttonEs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                setLocal("es");
+            }
+        });
 
+        buttonEn=root.findViewById(R.id.buttonEN);
+        buttonEn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setLocal("en");
             }
         });
 
         return root;
     }
-    /*
+
     public void setLocal(String lang) {
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);
         Configuration configuration = new Configuration();
         configuration.locale = locale;
-        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
-        SharedPreferences.Editor editor = getSharedPreferences("settings", MODE_PRIVATE).edit();
+        getActivity().getBaseContext().getResources().updateConfiguration(configuration, getActivity().getBaseContext().getResources().getDisplayMetrics());
+        SharedPreferences.Editor editor = getActivity().getSharedPreferences("settings", Context.MODE_PRIVATE).edit();
         editor.putString("My_Language", lang);
         editor.commit();
     }
 
     public void getLocal() {
-        SharedPreferences sharedPreferences = getSharedPreferences("settings", Activity.MODE_PRIVATE);
+        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("settings", Context.MODE_PRIVATE);
         String language = sharedPreferences.getString("My_Language", "");
         setLocal(language);
     }
-    */
+
 
     @Override
     public void onDestroyView() {
