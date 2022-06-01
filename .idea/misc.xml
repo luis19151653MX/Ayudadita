@@ -6,8 +6,13 @@
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/splash_screen_logo.xml" value="0.1" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_forget_password.xml" value="0.22" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_login.xml" value="0.2833333333333333" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_registration.xml" value="0.3108108108108108" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_forget_password.xml" value="0.11018518518518519" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_main.xml" value="0.10925925925925926" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_registration.xml" value="0.1796875" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/content_main.xml" value="0.175" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_about_us.xml" value="0.22" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_allquestions.xml" value="0.1828125" />
