@@ -65,9 +65,11 @@
     <string name="settings_text_language">Lenguaje</string>
     <string name="settings_radio_night">Modo Nocturno</string>
     <string name="settings_radio_es">Español</string>
-    <string name="settings_radio_en">Ingles</string>
+    <string name="settings_radio_en">Inglés</string>
 
     <!--Delete Account-->
     <string name="deleteAccount">Eliminar cuenta</string>
+    <string name="pointDeleteAccount">Estás a punto de eliminar tu cuenta.</string>
+    <string name="wishContinue">¿Desea Continuar?</string>
 
 </resources>

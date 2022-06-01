@@ -25,7 +25,7 @@
             android:icon="@drawable/ic_baseline_reply_all_24"
             android:title="@string/logout" />
         <item
-            android:id="@+id/fragment_deleteAccount"
+            android:id="@+id/delete_account"
             android:icon="@drawable/ic_baseline_delete_24"
             android:title="@string/deleteAccount" />
 

@@ -69,4 +69,6 @@
 
     <!--Delete Account-->
     <string name="deleteAccount">Delete account</string>
+    <string name="pointDeleteAccount">You are about to delete your account.</string>
+    <string name="wishContinue">Do you wish to continue?</string>
 </resources>
