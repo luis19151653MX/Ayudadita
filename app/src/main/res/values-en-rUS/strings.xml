@@ -59,5 +59,6 @@
     <string name="contact_numero">phone number</string>
     <string name="contact_numerotelefonico">+52 449 544 73 37</string>
 
-
+    <!--Settings-->
+    <string name="settings_configuration">Configuración</string>
 </resources>
