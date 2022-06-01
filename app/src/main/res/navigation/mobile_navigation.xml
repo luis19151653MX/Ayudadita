@@ -84,4 +84,9 @@
             android:id="@+id/action_fragment_contact_to_nav_home"
             app:destination="@id/nav_home" />
     </fragment>
+    <fragment
+        android:id="@+id/delete_account"
+        android:name="mx.ita.ayudadita.delete_account"
+        android:label="fragment_delete_account"
+        tools:layout="@layout/fragment_delete_account" />
 </navigation>

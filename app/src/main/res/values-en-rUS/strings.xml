@@ -66,4 +66,7 @@
     <string name="settings_radio_night">Night Mode</string>
     <string name="settings_radio_es">Spanish</string>
     <string name="settings_radio_en">English</string>
+
+    <!--Delete Account-->
+    <string name="deleteAccount">Delete account</string>
 </resources>

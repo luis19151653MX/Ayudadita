@@ -67,5 +67,8 @@
     <string name="settings_radio_es">Español</string>
     <string name="settings_radio_en">Ingles</string>
 
+    <!--Delete Account-->
+    <string name="deleteAccount">Eliminar cuenta</string>
+
 
 </resources>
