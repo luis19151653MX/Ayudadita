@@ -10,7 +10,7 @@
         android:id="@+id/imageView3"
         android:layout_width="239dp"
         android:layout_height="184dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,24 +21,75 @@
         style="@style/textoTitulo"
         android:layout_width="210dp"
         android:layout_height="48dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="32dp"
         android:text="@string/settings_configuration"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_regular"
-        android:textSize="50px"
-        android:text="Modo Nocturno"
-        android:textColor="#03045E"
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textoCuerpo"
+        android:layout_width="269dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/settings_text_mode"
+        android:textAlignment="textStart"
+        android:textSize="55px"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/textoCuerpo"
+        android:layout_width="269dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/settings_text_language"
+        android:textAlignment="textStart"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonModoNocturno" />
+
+    <RadioButton
+        android:id="@+id/radioButtonModoNocturno"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/roboto_regular"
+        android:scaleType="fitCenter"
+        android:text="@string/settings_radio_night"
+        android:textColor="#03045E"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <RadioGroup
+        android:layout_width="267dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radioButtonEs"
+            style="@style/RadioButtonSettings"
+            android:text="@string/settings_radio_es" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEn"
+            style="@style/RadioButtonSettings"
+            android:text="@string/settings_radio_en" />
+    </RadioGroup>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
