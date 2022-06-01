@@ -2,11 +2,20 @@ package mx.ita.ayudadita;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +32,7 @@ public class delete_account extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
 
     public delete_account() {
         // Required empty public constructor
@@ -53,12 +63,35 @@ public class delete_account extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_delete_account, container, false);
+        View view = inflater.inflate(R.layout.fragment_delete_account, container, false);
+        ImageButton eliminarC=view.findViewById(R.id.eliminarCuenta);
+        eliminarC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                deleteUser();
+            }
+        });
+        return view;
+    }
+
+    private  String TAG = "MainActivity";
+    public void deleteUser() {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        user.delete()
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (task.isSuccessful()) {
+                            Log.d(TAG, "User account deleted.");
+                        }
+                    }
+                });
     }
 }

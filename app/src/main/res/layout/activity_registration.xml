@@ -68,23 +68,13 @@
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintBottom_toTopOf="@+id/registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_correo"
         app:layout_constraintVertical_bias="0.0" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="234dp"
-        android:layout_height="41dp"
-        android:layout_marginBottom="132dp"
-        android:text="@string/IAcceptTermsConditions"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/registrar"
@@ -99,7 +89,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox"
         app:layout_constraintVertical_bias="0.972" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
