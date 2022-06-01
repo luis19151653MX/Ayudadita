@@ -1,38 +1,25 @@
 package mx.ita.ayudadita;
 
-import android.content.Intent;
-import android.gesture.Gesture;
-import android.gesture.GestureLibraries;
-import android.gesture.GestureLibrary;
-import android.gesture.GestureOverlayView;
-import android.gesture.Prediction;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
-import mx.ita.ayudadita.ui.home.HomeFragment;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link fragment_contact#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class fragment_contact extends Fragment implements GestureOverlayView.OnGesturePerformedListener{
+public class fragment_contact extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
-    private GestureLibrary libreria;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -67,36 +54,13 @@ public class fragment_contact extends Fragment implements GestureOverlayView.OnG
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
-
-
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        libreria= GestureLibraries.fromRawResource(getActivity(), R.raw.gestures);
-        if(!libreria.load()){
-           // finish();
-        }
-        View view = inflater.inflate(R.layout.fragment_contact, container, false);
-        GestureOverlayView gestureView = view.findViewById(R.id.gestures);
-        gestureView.addOnGesturePerformedListener(this);
+        View view=inflater.inflate(R.layout.fragment_contact, container, false);
         return view;
-    }
-
-    @Override
-    public void onGesturePerformed(GestureOverlayView gestureOverlayView, Gesture gesture) {
-        ArrayList<Prediction> predictions=libreria.recognize(gesture);
-        if(predictions.size()>0){
-            String comando = predictions.get(0).name;
-            if(comando.equals("acerca_de")){
-                Intent intent = new Intent(getActivity(), MainActivity.class);
-                getActivity().startActivity(intent);
-
-            }
-        }
     }
 }
