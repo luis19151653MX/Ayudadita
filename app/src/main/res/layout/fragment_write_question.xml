@@ -11,8 +11,8 @@
     <TextView
         android:id="@+id/textView5"
         style="@style/textoTitulo"
-        android:layout_width="297dp"
-        android:layout_height="50dp"
+        android:layout_width="303dp"
+        android:layout_height="88dp"
         android:layout_marginTop="72dp"
         android:text="@string/what_is_your_question"
         app:layout_constraintEnd_toEndOf="parent"
