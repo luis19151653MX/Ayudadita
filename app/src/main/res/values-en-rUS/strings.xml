@@ -60,9 +60,10 @@
     <string name="contact_numerotelefonico">+52 449 544 73 37</string>
 
     <!--Settings-->
-    <string name="settings_configuration">Configuración</string>
-    <string name="settings_text_mode">Establecer modo nocturno</string>
-    <string name="settings_text_language">Lenguaje</string>
-    <string name="settings_radio_night">Modo Nocturno</string>
-    <string name="settings_radio_en">Ingles</string>
+    <string name="settings_configuration">Settings</string>
+    <string name="settings_text_mode">Set night mode</string>
+    <string name="settings_text_language">Language</string>
+    <string name="settings_radio_night">Night Mode</string>
+    <string name="settings_radio_es">Spanish</string>
+    <string name="settings_radio_en">English</string>
 </resources>

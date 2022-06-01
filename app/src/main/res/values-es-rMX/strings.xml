@@ -64,6 +64,7 @@
     <string name="settings_text_mode">Establecer modo nocturno</string>
     <string name="settings_text_language">Lenguaje</string>
     <string name="settings_radio_night">Modo Nocturno</string>
+    <string name="settings_radio_es">Español</string>
     <string name="settings_radio_en">Ingles</string>
 
 </resources>
