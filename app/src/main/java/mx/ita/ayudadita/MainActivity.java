@@ -1,6 +1,7 @@
 package mx.ita.ayudadita;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.LabeledIntent;
 import android.gesture.Prediction;
 import android.os.Bundle;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity   {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
