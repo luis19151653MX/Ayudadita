@@ -5,11 +5,16 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.LabeledIntent;
 import android.gesture.Prediction;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,6 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 import mx.ita.ayudadita.databinding.ActivityMainBinding;
+import mx.ita.ayudadita.ui.gallery.GalleryFragment;
 
 public class MainActivity extends AppCompatActivity   {
 
@@ -63,6 +69,18 @@ public class MainActivity extends AppCompatActivity   {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+            if (item.getItemId() == R.id.action_settings) {
+                Toast.makeText(this, "Cerrando sesion", Toast.LENGTH_SHORT).show();
+                Intent setti= new Intent(this, SplashScreen.class);
+                startActivity(setti);
+            }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
