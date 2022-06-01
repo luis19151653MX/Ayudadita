@@ -27,6 +27,8 @@ import java.util.ArrayList;
 import mx.ita.ayudadita.databinding.ActivityMainBinding;
 import mx.ita.ayudadita.ui.gallery.GalleryFragment;
 
+
+//prueba de git
 public class MainActivity extends AppCompatActivity   {
 
     private AppBarConfiguration mAppBarConfiguration;
