@@ -3,10 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/drawable/splash_screen_logo.xml" value="0.1" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_forget_password.xml" value="0.22" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_login.xml" value="0.2833333333333333" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout-land/activity_registration.xml" value="0.3108108108108108" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_forget_password.xml" value="0.11018518518518519" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_main.xml" value="0.10925925925925926" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/activity_registration.xml" value="0.1796875" />
         <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/content_main.xml" value="0.175" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.16" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_about_us.xml" value="0.22" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_allquestions.xml" value="0.1828125" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_contact.xml" value="0.1796875" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_eight_semester.xml" value="0.1" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_first_semester.xml" value="0.1796875" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_gallery.xml" value="0.16666666666666666" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_home.xml" value="0.17222222222222222" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/fragment_logout.xml" value="0.1046875" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/layout/nav_header_main.xml" value="0.14166666666666666" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/menu/activity_main_drawer.xml" value="0.17692307692307693" />
+        <entry key="..\:/APPS_android2022/Ayudadita/app/src/main/res/menu/main.xml" value="0.1796875" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/drawable/ic_baseline_handshake_24.xml" value="0.1205" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/drawable/ic_baseline_reply_all_24.xml" value="0.124" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.124" />
@@ -17,17 +35,11 @@
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/activity_registration.xml" value="0.15" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/content_main.xml" value="0.2" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_about_us.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_allquestions.xml" value="0.25" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_contact.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_delete_account.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_first_semester.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_logout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_questions.xml" value="0.25" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_semestre1.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/fragment_write_question.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/login.xml" value="0.25" />
-        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
         <entry key="..\:/Users/100017408/AndroidStudioProjects/Ayudaditafer/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
       </map>
     </option>
